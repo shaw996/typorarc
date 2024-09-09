@@ -21,12 +21,12 @@ REMOTE_REPO_PATH=[Your remote Repo path]
 
 ### When Insert Images
 
-Choose [Upload image]
+Choose `Upload image`
 
 ### Image Upload Setting
 
 #### Image Uploader
-Choose [Custom Command]
+Choose `Custom Command`
 
 #### Command
 Enter content below (Replace with your real script's path):
@@ -34,3 +34,4 @@ Enter content below (Replace with your real script's path):
 Bash /Users/[Your directory]/typorarc/scripts/upload.sh
 ```
 
+![image-20240909163417367](/Users/liudaodan/Downloads/image-20240909163417367.png)

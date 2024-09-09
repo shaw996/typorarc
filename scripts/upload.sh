@@ -34,7 +34,7 @@ do
   cp "${file_path}" "${LOCAL_REPO_PATH}/src/${file_name}" && { echo "Copy ${file_path} to ${LOCAL_REPO_PATH}/src/${file_name}" >> ${LOG_FILE}; }  || { echo "Failed to copy ${file_path} to ${LOCAL_REPO_PATH}/src/${file_name}" >> ${LOG_FILE}; exit 1; }
 
   # Upload to repository
-  git add . >> ${LOG_FILE} 2>&1 && git commit -m "${file_name}" >> ${LOG_FILE} 2>&1 && git push -u origin master >> ${LOG_FILE} 2>&1
+  git add . >> ${LOG_FILE} 2>&1 && git commit -m "feat: ${file_name}" >> ${LOG_FILE} 2>&1 && git push -u origin master >> ${LOG_FILE} 2>&1
 
   # Check if git commands failed
   if [ $? -ne 0 ]; then
