@@ -34,4 +34,4 @@ Enter content below (Replace with your real script's path):
 Bash /Users/[Your directory]/typorarc/scripts/upload.sh
 ```
 
-![image-20240909163417367](/Users/liudaodan/Downloads/image-20240909163417367.png)
+![image-20240909163417367](https://github.com/shaw996/typorarc/raw/master/src/image-20240909163417367.png?raw=true)
