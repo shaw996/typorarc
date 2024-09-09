@@ -2,17 +2,17 @@
 
 ## 1. Clone repository
 ```shell
-git clone git@github.com:shaw996/typorarc.git
+git clone [Remote repo path]
 ```
 
 ## 2. Modify variables in `scripts/upload.sh`
 
 ```shell
 # Repository location
-LOCAL_REPO_PATH=[Your local Repo path]
+LOCAL_REPO_PATH=[Your local repo path]
 
 # Git
-REMOTE_REPO_PATH=[Your remote Repo path]
+REMOTE_REPO_PATH=[Your remote repo path]
 ## Or gitee
 # REMOTE_REPO_PATH=[Your remote Repo path]
 ```
