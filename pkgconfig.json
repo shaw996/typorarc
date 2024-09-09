@@ -1,0 +1,6 @@
+{
+  "manager": "npm",
+  "pkgComposes": [
+    "https://raw.githubusercontent.com/shaw996/pkg-compose/main/packages/%40composes/v20.10.0/gitCommit/pkg-compose.yaml"
+  ]
+}

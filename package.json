@@ -1,0 +1,14 @@
+{
+  "name": "typorarc",
+  "version": "1.0.0",
+  "description": "My typorarc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Shaw996",
+    "email": "shawliu996@gmail.com"
+  },
+  "license": "ISC"
+}
