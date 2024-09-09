@@ -19,6 +19,8 @@ REMOTE_REPO_PATH=[Your remote Repo path]
 
 ## 3. Find `Typora -> Settings -> Image`
 
+![image-20240909163417367](https://github.com/shaw996/typorarc/raw/master/src/image-20240909163417367.png?raw=true)
+
 ### When Insert Images
 
 Choose `Upload image`
@@ -33,5 +35,3 @@ Enter content below (Replace with your real script's path):
 ```shell
 Bash /Users/[Your directory]/typorarc/scripts/upload.sh
 ```
-
-![image-20240909163417367](https://github.com/shaw996/typorarc/raw/master/src/image-20240909163417367.png?raw=true)
