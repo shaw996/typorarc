@@ -4,11 +4,25 @@
   "description": "My typorarc",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npx husky install"
   },
   "author": {
     "name": "Shaw996",
     "email": "shawliu996@gmail.com"
   },
-  "license": "ISC"
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "19.4.0",
+    "@commitlint/config-conventional": "19.2.2",
+    "commitizen": "4.3.0",
+    "git-cz": "4.9.0",
+    "husky": "9.1.5",
+    "pkgcompose": "0.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/git-cz"
+    }
+  }
 }

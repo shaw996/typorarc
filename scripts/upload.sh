@@ -2,8 +2,10 @@
 
 # Repository location
 LOCAL_REPO_PATH="/Users/liudaodan/Downloads/个人/项目/typorarc"
+
+# Git
 REMOTE_REPO_PATH="https://github.com/shaw996/typorarc/raw/master"
-## gitee
+## Or Gitee
 # REMOTE_REPO_PATH="https://gitee.com/shaw996/typorarc/raw/master"
 
 # Log file path
